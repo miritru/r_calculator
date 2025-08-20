@@ -6,7 +6,7 @@ import sqlite3
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://127.0.0.1:8080"],  #origen del frontend
+    allow_origins=["https://r-calculator.onrender.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
