@@ -9,7 +9,7 @@ batchDateInput.value = today;
 // Función para cargar productos desde el backend
 async function loadProducts() {
     try {
-        const response = await fetch("http://127.0.0.1:8000/products");
+        const response = await fetch("https://r-calculator.onrender.com/products");
         const products = await response.json();
 
         // Limpiar opciones existentes
@@ -41,7 +41,7 @@ document.getElementById("calculateBtn").addEventListener("click", async () => {
     }
 
     try {
-        const url = `http://127.0.0.1:8000/calculate?product=${encodeURIComponent(product)}&batch_date=${batch_date}`;
+        const url = `https://r-calculator.onrender.com/calculate?product=${encodeURIComponent(product)}&batch_date=${batch_date}`;
         console.log(url);
         const response = await fetch(url);
         const data = await response.json();
