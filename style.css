@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5fff5;
+    color: #2d572c;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* <--- línea nueva */
+    align-items: center;    /* centrado horizontal */
+    min-height: 100vh;
+}
+
+
+.container {
+    background: #ffffff;
+    padding: 20px 15px;
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 320px;   /* más estrecho */
+    width: 90%;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #1f4e1f;
+    font-size: 22px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    box-sizing: border-box; /* asegura que ancho y padding no rompan layout */
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #a9d6a9;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    background: #3c8d3c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #2f6b2f;
+}
+
+#results {
+    margin-top: 20px;
+    padding: 15px;
+    background: #e9f9e9;
+    border-radius: 8px;
+    border: 1px solid #b6e2b6;
+}
+
+.contact-section {
+    margin-top: 30px;
+    padding: 15px;
+    background: #f0fff0;
+    border-radius: 8px;
+    border: 1px solid #a9d6a9;
+}
+
+.contact-section h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Ajustes para pantallas muy pequeñas */
+@media (max-width: 400px) {
+    .container {
+        padding: 15px 12px;
+        max-width: 95%;
+    }
+    button {
+        font-size: 15px;
+        padding: 8px;
+    }
+}
