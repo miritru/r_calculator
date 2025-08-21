@@ -28,6 +28,7 @@ productos = [
     ("morcilla pueblo", 7, 15),
     ("morcilla cebolla", 7, 15),
     ("morcilla cordoba", 5, 11),
+    ("morcilla cadiz", 7, 15),
     ("flamenquin pollo", 4, 9),
     ("cachopo", 5, 9),
     ("tocino fresco ib", 7, 15),
