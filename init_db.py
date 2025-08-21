@@ -18,6 +18,7 @@ cursor.execute("INSERT OR IGNORE INTO products (name, R_days, expiry_days) VALUE
 cursor.execute("INSERT OR IGNORE INTO products (name, R_days, expiry_days) VALUES ('morcilla pueblo', 7, 15)")
 cursor.execute("INSERT OR IGNORE INTO products (name, R_days, expiry_days) VALUES ('morcilla cebolla', 7, 15)")
 cursor.execute("INSERT OR IGNORE INTO products (name, R_days, expiry_days) VALUES ('morcilla cordoba', 5, 11)")
+cursor.execute("INSERT OR IGNORE INTO products (name, R_days, expiry_days) VALUES ('morcilla cadiz', 7, 15)")
 cursor.execute("INSERT OR IGNORE INTO products (name, R_days, expiry_days) VALUES ('flamenquin pollo', 4, 9)")
 cursor.execute("INSERT OR IGNORE INTO products (name, R_days, expiry_days) VALUES ('cachopo', 5, 9)")
 cursor.execute("INSERT OR IGNORE INTO products (name, R_days, expiry_days) VALUES ('tocino fresco ib', 7, 15)")
